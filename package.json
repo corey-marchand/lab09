@@ -1,0 +1,29 @@
+{
+  "name": "lab09",
+  "version": "1.0.0",
+  "description": "API Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corey-marchand/lab09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corey-marchand/lab09/issues"
+  },
+  "homepage": "https://github.com/corey-marchand/lab09#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "superagent": "^5.1.0"
+  }
+}
